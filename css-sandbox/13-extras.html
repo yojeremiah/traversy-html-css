@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test File</title>
+  </head>
+  <style>
+    h1 {
+      /* 
+        DISPLAY removes the element from the DOM
+        VISIBILITY removes it from being seen, but the space is still occupied by the element
+      */
+      /* display: none */
+      /* visibility: hidden; */
+      /* The IMPORTANT value will override other CSS values */
+      color: blue !important;
+    }
+
+    .hello {
+      color: red;
+      margin-top: -30px;
+      margin-left: -30px;
+      /* Negative MARGINS are acceptable, but negative PADDING is not */
+    }
+  </style>
+
+  <body>
+    <h1 class="hello">Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolore obcaecati unde voluptates quis enim illo
+      aliquam impedit sint nam?</p>
+  </body>
+
+</html>
