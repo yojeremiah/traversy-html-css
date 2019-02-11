@@ -96,6 +96,34 @@ p {
   clear: both;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Padding (y-axis top/bot & x-axis left/right) */
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px;
+}
+
+.py-3 {
+  padding: 30px;
+}
+
 /* Navbar */
 #navbar {
   /* background: #333; */
@@ -127,6 +155,8 @@ p {
 
 #navbar ul li {
   float: left;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #navbar ul li a {
@@ -144,7 +174,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url('../img/showcase-2.jpg') no-repeat center center/cover;
+  background: url('../img/traversy-showcase.jpg') no-repeat center center/cover;
   height: 600px;
 }
 
@@ -186,26 +216,91 @@ p {
   overflow: hidden;
 }
 
-#home-info .info-content h2 {
+/* #home-info .info-content h2 {
   font-size: 30px;
   padding-bottom: 10px;
-}
+} */
 
 #home-info .info-content p {
   font-size: 18px;
-  padding: 30px 0 50px 0;
+  padding: 20px 0 30px 0;
 }
 
-/* Features */
-.box {
+/* About Info */
+#about-info .info-left {
   float: left;
-  width: 33.3%;
-  padding: 50px;
-  text-align: center;
+  width: 50%;
+  min-height: 100%;
 }
 
-.box i {
-  margin-bottom: 10px;
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 75%;
+  margin: auto;
+  border-radius: 60%;
+}
+
+/* Testimonials */
+#testimonials {
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding-top: 70px;
+  /* overflow: auto; */
+}
+
+#testimonials h2 {
+  color: #f7fff7;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  overflow: auto;
+  opacity: 0.95;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #FFE66D;
 }
 
 /* Footer */
