@@ -1,0 +1,82 @@
+/* Navbar */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, 
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  padding: none;
+  padding-top: none;
+}
+
+#showcase .showcase-content {
+  height: 100%;
+  padding: 25px;
+}
+
+#showcase .showcase-content h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+#showcase .showcase-content p {
+  line-height: 1.4;
+}
+
+/* Home Info */
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+#home-info h2 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+/* Box Class */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About Info */
+#about-info {
+  text-align: center;
+}
+
+#about-info .info-left, 
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right img {
+  margin-top: 20px;
+}
+
+/* Contact Boxes */
+#contact-info .box {
+  border-bottom: 1px solid #4f4f4f;
+}
+
+/* Footer */
+#main-footer {
+  border-top: none;
+}
