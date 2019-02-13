@@ -1,0 +1,113 @@
+/* COLORS REFERENCE */
+/* #333 */
+/* #444 */
+/* #fff */
+/* #f7c08a */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styles */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utilities */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.l-text {
+  font-size: 60px;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+}
+/* Navbar */
+#navbar {
+  background: #333;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar h1 a:hover {
+  color: #f7c08a;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li .current, 
+#navbar ul li a:hover {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+  height: 100%;
+  background: url('../img/traversy-showcase.jpg') no-repeat center center/cover;
+}
+
+#showcase h2 {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+#showcase p {
+  font-size: 20px;
+  padding: 0 30px;
+}
