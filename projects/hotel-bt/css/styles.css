@@ -48,6 +48,10 @@ p {
   color: #f7c08a;
 }
 
+.bg-primary {
+  background: #f7c08a;
+}
+
 .btn-dark {
   display: inline-block;
   /* width: 200px; */
@@ -81,7 +85,14 @@ p {
   color: #333;
 }
 
+.box {
+  background: #f4f4f4;
+  text-align: center;
+}
 
+.clr {
+  clear: both;
+}
 
 /* Navbar */
 #navbar {
@@ -126,8 +137,7 @@ p {
 /* Showcase */
 #showcase {
   text-align: center;
-  height: 100%;
-  /* height: 600px; */
+  height: 600px;
   background: url('../img/traversy-showcase.jpg') no-repeat center center/cover;
 }
 
@@ -148,8 +158,8 @@ p {
 
 /* Home Info */
 #home-info {
-  /* background: #333; */
   height: 400px;
+  background: red;
 }
 
 #home-info .home-img {
@@ -165,20 +175,36 @@ p {
   width: 50%;
   height: 100%;
   text-align: center;
-  padding: 100px;
+  padding: 20px;
   padding-top: 80px;
 }
 
 #home-info .home-text h2 {
-  font-size: 36px;
-  line-height: 1.2em;
+  font-size: 24px;
 }
 
 #home-info .home-text p {
-  font-size: 18px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#home-info .btn-light {
-  margin-top: 40px;
+/* Services */
+#services {
+  color: #333;
+}
+
+#services .box {
+  float: left;
+  width: 33.3%;
+  padding: 40px;
+}
+
+#services .box:nth-of-type(2) {
+  background: #f7c08a;
+}
+
+/* Footer */
+#main-footer {
+  background: #444;
+  text-align: center;
+  padding: 15px;
 }
