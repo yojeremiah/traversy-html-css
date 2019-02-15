@@ -41,6 +41,7 @@ a {
 
 .bg-primary {
   background: #f7c08a;
+  color: #333;
 }
 
 .btn-dark {
@@ -58,7 +59,6 @@ a {
 
 .btn-light {
   display: inline-block;
-  /* width: 200px; */
   border: none;
   border-radius: 3px;
   background: #f4f4f4;
@@ -96,6 +96,7 @@ a {
 
 .bg-dark {
   background: #333;
+  color: #f4f4f4;
 }
 
 /* Navbar */
@@ -200,13 +201,6 @@ a {
   padding: 15px 0;
 }
 
-/* Footer */
-#main-footer {
-  background: #444;
-  text-align: center;
-  padding: 15px;
-}
-
 /* About */
 #about-info {
   padding: 30px 0;
@@ -241,3 +235,101 @@ a {
 }
 
 /* Testimonials */
+#testimonials {
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 75px;
+  /* height: 550px; */
+}
+
+#testimonials h2 {
+  font-size: 50px;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#testimonials .testimonial {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.testimonial p {
+  padding: 10px 0;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Contact */
+#contact-form {
+  color: #333;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+#contact-form h2 {
+  padding-bottom: 20px;
+  line-height: 1.2em;
+  font-size: 40px;
+}
+
+#contact-form p {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  /* margin-bottom: 20px; */
+  border: 1px solid #333;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+#contact-form textarea {
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #f7c08a;
+}
+
+/* Contact Info */
+#contact-info i {
+  margin: 10px;
+}
+
+#contact-info p {
+  margin-top: 10px;
+}
+
+
+/* Footer */
+#main-footer {
+  background: #444;
+  text-align: center;
+  padding: 25px;
+}
