@@ -46,7 +46,6 @@ a {
 
 .btn-dark {
   display: inline-block;
-  /* width: 200px; */
   border: none;
   border-radius: 3px;
   background: #333;
@@ -184,11 +183,11 @@ a {
 }
 
 #home-info .home-text h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 #home-info .home-text p {
-  padding: 50px 50px;
+  padding: 50px;
   font-size: 20px;  
 }
 
@@ -207,29 +206,29 @@ a {
   background: #f4f4f4;
 }
 
-.info-left {
+#about-info .info-left {
   float: left;
   width: 50%;
   color: #333;
 }
 
-.info-left h2 {
+#about-info .info-left h2 {
   font-size: 42px;
   padding-bottom: 25px;
 }
 
-.info-left p {
+#about-info .info-left p {
   padding-bottom: 25px; 
 }
 
-.info-right {
+#about-info .info-right {
   float: right;
   width: 50%;
 }
 
-.info-right img {
+#about-info .info-right img {
   border-radius: 50%;
-  width: 70%;
+  width: 60%;
   display: block;
   margin: auto;
 }
@@ -316,7 +315,6 @@ a {
   border: 1px solid #f7c08a;
 }
 
-/* Contact Info */
 #contact-info i {
   margin: 10px;
 }
