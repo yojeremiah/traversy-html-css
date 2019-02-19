@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox Alignment</title>
+  <style>
+    #container {
+      background: #555;
+      height: 600px;
+      display: flex;
+      flex-wrap: wrap;
+      /* Align flex-items horizontally */
+      justify-content: space-evenly;
+      /* 
+        JUSTIFY-CONTENT OPTIONS:
+          flex-start - default
+          flex-end
+          center
+          space-around
+          space-between
+          space-evenly
+      */
+      /* Align flex items vertically (must be a height on the container) */
+      align-items: flex-start;
+      /* 
+        ALIGN-ITEMS OPTIONS:
+          stretch - default
+          flex-start
+          flex-end
+          center
+          baseline
+      */
+      /* Align flex items vertically on multiple lines (has no effect on a single (no-wrap) line of itemsalign content  */
+      align-content: stretch;
+      /* 
+        ALIGN-CONTENT OPTIONS:
+          stretch - default
+          flex-start
+          flex-end
+          center
+          space-around
+          space-between
+          baseline
+      */
+    }
+
+    .item {
+      background: #f4f4f4;
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin: 0.5rem;
+      flex-basis: 100px;
+    }
+
+    .item-1 {
+      order: 3;
+    }
+
+    .item-2 {
+      /* Align single flex item vertically */
+      align-self: flex-end;
+      /* 
+        ALIGN-SELF OPTIONS:
+          flex-start
+          flex-end
+          center
+          baseline
+          stretch
+      */
+      order: 2;
+    }
+
+    .item-3 {
+      order: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+  </div>
+</body>
+</html>
