@@ -39,8 +39,17 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background-color: #93cb52;
+  color: #fff;
+}
+
 .text-primary {
   color: #93cb52;
+}
+
+.text-dark {
+  color: #333;
 }
 
 .text-center {
@@ -167,6 +176,9 @@ p {
   background-color: rgba(0, 0, 0, .4);
   position: absolute;
   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* Section - What We Do */
@@ -214,4 +226,55 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form, 
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem 0;
+}
+
+#contact .contact-form .btn {
+  width: 100%;
+  font-weight: bold;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+#contact .contact-form .form-group input, 
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#contact .contact-form .form-group input:focus, 
+#contact .contact-form .form-group textarea:focus {
+  border: 2px solid #333;
+  outline: none;
+}
+
+#contact .contact-form .form-group textarea {
+  height: 5rem;
+}
+
+/* Map */
+#contact .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+#main-footer {
+  padding: .5rem 0;
 }
