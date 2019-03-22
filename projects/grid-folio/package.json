@@ -1,0 +1,14 @@
+{
+  "name": "grid-folio",
+  "version": "1.0.0",
+  "description": "Portfolio grid site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
